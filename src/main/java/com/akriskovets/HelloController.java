@@ -11,7 +11,7 @@ public class HelloController {
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String printHelloWorld(ModelMap modelMap){
         modelMap.addAttribute("message",
-                "Hello World!");
+                "Hello Artsiom!");
         return "hello_world";
     }
 
